@@ -64,6 +64,7 @@ h1 {
   font-size: 64px;
   color: #fafafa;
 }
+
 .mv-text {
   text-align: center;
 }
@@ -73,24 +74,139 @@ h1 {
   color: #fafafa;
 }
 
-.portfolio {
+#portfolio {
+  padding: 90px 0 90px;
+  background-color: #eceff1;
+  color: #000000;
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: 32px;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  padding: 30px 0;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  background-color: #ec715f;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+}
+
+.portfolio-images {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-image-1 {
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin: 0 5px 5px 0;
+}
+
+.portfolio-image-2 {
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin: 0 5px 5px 5px;
+}
+
+.portfolio-image-3 {
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin: 0 0 5px 5px;
+}
+
+.portfolio-image-4 {
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin: 5px 5px 0 0;
+}
+
+.portfolio-image-5 {
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin: 5px 5px 0 5px;
+}
+
+.portfolio-image-6 {
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin: 5px 0 0 5px;
+}
+
+#feature {
+  padding: 90px 0 90px;
+  color: #000000;
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 32px;
+}
+
+.feature-text {
+  font-size: 16px;
+  padding: 30px;
+}
+
+.strength-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.strength {
+  margin-right: 10px;
+  width: 320px;
+}
+
+.strength:last-child {
+  margin: 0;
+}
+
+.strength i {
+  font-size: 60px;
+}
+
+.strength-title {
+  padding: 10px 0 10px 0;
+  font-size: 20px;
+}
+
+.strength-text {
+  font-size: 16px;
+}
+
+#profile {
   padding: 90px 0 90px;
   background-color: #eceff1;
   color: #000000;
 }
 
-.feature {
-  padding: 90px 0 90px;
-  color: #000000;
-}
-
-.profile {
-  padding: 90px 0 90px;
-  background-color: #eceff1;
-  color: #000000;
-}
-
-.contact {
+#contact {
   padding: 90px 0 90px;
   color: #000000;
 }
