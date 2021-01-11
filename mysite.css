@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+}
+
+header.container {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+
+container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  margin: 0 30px;
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.mv {
+  height: 650px;
+  background-image: ;
+  font-size: 10px;
+  color: #fafafa;
+}
+
+.mv-title {
+  padding: 200px 0 10px;
+}
+
+.portfolio {
+  padding: 90px 0 90px;
+  background-color: #eceff1;
+  color: #000000;
+}
+
+.feature {
+  padding: 90px 0 90px;
+  color: #000000;
+}
+
+.profile {
+  padding: 90px 0 90px;
+  background-color: #eceff1;
+  color: #000000;
+}
+
+.contact
